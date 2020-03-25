@@ -8,7 +8,7 @@ Reimagining home automation control as Denotative Continuos-Time Programming (DC
 * Always correctly handles things that change continuously over time
 * Simpler to think about because there is no state within the home automation control program
 
-## An Example
+## Comparison to Traditional Approach
 
 Consider an attempt to configure a routine for controlling lights. I want lights to be on during the day if I'm home and at 9 pm I want an hour long sunset simulation to run (using colored lights). In my [Hubitat Elevation](https://hubitat.com/) home automation system, this could be done with rules equivalent to:
 
