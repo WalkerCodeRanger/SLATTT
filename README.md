@@ -10,7 +10,7 @@ Reimagining home automation control as Denotative Continuos-Time Programming (DC
 
 ## Comparison to Traditional Approach
 
-Consider an attempt to configure a routine for controlling lights. I want lights to be on during the day if I'm home and at 9 pm I want an hour long sunset simulation to run (using colored lights). In my [Hubitat Elevation](https://hubitat.com/) home automation system, this could be done with rules equivalent to:
+Consider an attempt to configure a routine for controlling lights. I want the lights to be on (white) during the day if I'm home and at 9 pm I want an hour long sunset simulation to run (using colored lights). In my [Hubitat Elevation](https://hubitat.com/) home automation system, this could be done with rules equivalent to:
 
 1. If cell phone becomes away then set mode to "away"
 2. If cell phone becomes present then set mode based on time of day:
